@@ -86,31 +86,25 @@ Published LinkedIn Post
 
 ### 📊 Google Sheets Input
 
-![Google Sheets Input](screenshots/google--
+![Googleots/google-sheet-input.png.png
+
+---
 
 ### 🔄 Workflow Overview
 
-![reenshots/workflow-overview.png.png
+![Workflows/workflow-overview.png.png
 
 ---
 
 ### ⚡ Workflow Execution
 
-![reenshots/workflow-execution.png.png
+![Workflows/workflow-execution.png.png
 
 ---
 
-### 📝 LinkedIn Post Output 1
+### 📝 LinkedIn Post Output
 
-![LinkedIn Post Output](screenshots/linkedin-post-output-01.pngIn Post Output 2
-
-![Linkedots/linkedin-post-output-02.png.png
-
----
-
-### 📝 LinkedIn Post Output 3
-
-![LinkedIn Post Output](screenshots/linkedin-post-output-03.png
+![Linkedots/linkedin-post-output-01.png.png
 
 ## Future Improvements
 
