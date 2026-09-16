@@ -86,26 +86,29 @@ Published LinkedIn Post
 
 ### 📊 Google Sheets Input
 
-![Googleots/google-sheet-input.png.png
+![Google Sheets Input](screenshots/google-sheet-input.png.png)
 
 ---
 
 ### 🔄 Workflow Overview
 
-![Workflows/workflow-overview.png.png
+![Workflow Overview](screenshots/workflow-overview.png.png)
 
 ---
 
 ### ⚡ Workflow Execution
 
-![Workflows/workflow-execution.png.png
+![Workflow Execution](screenshots/workflow-execution.png.png)
 
 ---
 
 ### 📝 LinkedIn Post Output
 
-![Linkedots/linkedin-post-output-01.png.png
+![LinkedIn Post Output 1](screenshots/linkedin-post-output-01.png.png)
 
+![LinkedIn Post Output 2](screenshots/linkedin-post-output-02.png.png)
+
+![LinkedIn Post Output 3](screenshots/linkedin-post-output-03.png.png)
 ## Future Improvements
 
 - Multi-platform publishing
@@ -114,8 +117,3 @@ Published LinkedIn Post
 - Analytics dashboard
 - Agentic AI capabilities
 - RAG-powered content enrichment
-`
-
-## Test Image
-
-screenshots/workflow-overview.png.png
