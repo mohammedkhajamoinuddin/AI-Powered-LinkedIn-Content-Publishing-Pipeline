@@ -106,9 +106,6 @@ Published LinkedIn Post
 
 ![LinkedIn Post Output 1](screenshots/linkedin-post-output-01.png.png)
 
-![LinkedIn Post Output 2](screenshots/linkedin-post-output-02.png.png)
-
-![LinkedIn Post Output 3](screenshots/linkedin-post-output-03.png.png)
 ## Future Improvements
 
 - Multi-platform publishing
