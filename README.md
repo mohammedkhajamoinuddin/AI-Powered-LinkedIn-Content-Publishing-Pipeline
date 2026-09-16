@@ -17,6 +17,15 @@ Instead of manually reading an article, drafting a post, and publishing it, the 
 - Event-driven workflow automation using n8n
 - Zero manual copy-paste after article submission
 
+## Challenges Faced
+
+- Configuring Google OAuth Consent Screen
+- Creating OAuth 2.0 Credentials in Google Cloud
+- Setting up LinkedIn Developer Applications
+- Configuring LinkedIn OAuth Redirect URLs
+- Handling API authentication across multiple services
+- Designing a reliable content publishing workflow
+
 ## Workflow
 
 1. Add an article URL to Google Sheets
