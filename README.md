@@ -8,6 +8,15 @@ This project automates the process of content creation and publishing using Goog
 
 Instead of manually reading an article, drafting a post, and publishing it, the workflow performs the entire process automatically.
 
+## Key Features
+
+- Automated article ingestion through Google Sheets
+- AI-powered content generation using Google Gemini
+- Automated LinkedIn publishing
+- OAuth 2.0 secured integrations
+- Event-driven workflow automation using n8n
+- Zero manual copy-paste after article submission
+
 ## Workflow
 
 1. Add an article URL to Google Sheets
