@@ -1,4 +1,4 @@
-# AI Content Publishing Automation
+# AI-Powered LinkedIn Content Publishing Pipeline
 
 An end-to-end AI-powered content publishing workflow that automatically transforms web articles into LinkedIn posts.
 
