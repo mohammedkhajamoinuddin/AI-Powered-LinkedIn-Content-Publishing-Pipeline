@@ -66,15 +66,21 @@ Published LinkedIn Post
 
 ### Google Sheets Input
 
-See: `screenshots`
+![Googleots/google-sheet-input.png.png
 
-### Workflow Automation
+### Workflow Overview
 
-See: `screenshots`
+![Workflows/workflow-overview.png.png
 
-### LinkedIn Post Output
+### Workflow Execution
 
-See: `screenshots`
+![Workflows/workflow-execution.png.png
+
+### LinkedIn Posts Generated
+
+![LinkedIns/linkedin-post-output-01.png.png
+
+![LinkedIn Post 2](screenshots/linkedin-post-![Linkedots/linkedin-post-output-03.png.png
 
 ## Future Improvements
 
