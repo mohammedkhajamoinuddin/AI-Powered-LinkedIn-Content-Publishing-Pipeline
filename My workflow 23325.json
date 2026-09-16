@@ -1,0 +1,148 @@
+{
+  "name": "My workflow 23325",
+  "nodes": [
+    {
+      "parameters": {
+        "pollTimes": {
+          "item": [
+            {
+              "mode": "everyHour"
+            }
+          ]
+        },
+        "documentId": {
+          "__rl": true,
+          "value": "1Kpo-L2TPsz-Ne_VOpDCFpAGcYFbNCSytSDXOhFqfN4E",
+          "mode": "list",
+          "cachedResultName": "Social Media Workflow",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Kpo-L2TPsz-Ne_VOpDCFpAGcYFbNCSytSDXOhFqfN4E/edit?usp=drivesdk"
+        },
+        "sheetName": {
+          "__rl": true,
+          "value": "gid=0",
+          "mode": "list",
+          "cachedResultName": "Sheet1",
+          "cachedResultUrl": "https://docs.google.com/spreadsheets/d/1Kpo-L2TPsz-Ne_VOpDCFpAGcYFbNCSytSDXOhFqfN4E/edit#gid=0"
+        },
+        "options": {}
+      },
+      "type": "n8n-nodes-base.googleSheetsTrigger",
+      "typeVersion": 1,
+      "position": [
+        -544,
+        -144
+      ],
+      "id": "7a8d6b33-4ff8-40f6-9e76-06fcc1815eec",
+      "name": "Google Sheets Trigger",
+      "credentials": {
+        "googleSheetsTriggerOAuth2Api": {
+          "id": "Uz7IOnMVQ8G43vVF",
+          "name": "Google Sheets Trigger account 6082"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "promptType": "define",
+        "text": "=Analyze the article at:\n\n{{ $json.newslinks }}\n\nCreate a LinkedIn post.\n\nRequirements:\n- Professional and human tone\n- 150-250 words\n- Start with a strong hook\n- Focus on practical insights\n- Use short paragraphs\n- End with a question\n- Include 5 relevant hashtags\n- Do NOT output Title\n- Do NOT output Summary\n- Do NOT output Key Takeaways\n- Return ONLY the final LinkedIn post",
+        "batching": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.chainLlm",
+      "typeVersion": 1.9,
+      "position": [
+        -336,
+        -144
+      ],
+      "id": "ee46b5bb-01af-4d4c-98f5-3f2b1822dba7",
+      "name": "Summarize Articles"
+    },
+    {
+      "parameters": {
+        "options": {}
+      },
+      "type": "@n8n/n8n-nodes-langchain.lmChatGoogleGemini",
+      "typeVersion": 1.1,
+      "position": [
+        -336,
+        144
+      ],
+      "id": "f5736398-bed9-4668-a4b9-686a716ed258",
+      "name": "Google Gemini Chat Model",
+      "credentials": {
+        "googlePalmApi": {
+          "id": "OhQqJeMqYNmUIC6W",
+          "name": "Google Gemini(PaLM) Api account 15897"
+        }
+      }
+    },
+    {
+      "parameters": {
+        "person": "FjJt5GGlW0",
+        "text": "={{ $json.text }}",
+        "additionalFields": {}
+      },
+      "type": "n8n-nodes-base.linkedIn",
+      "typeVersion": 1,
+      "position": [
+        16,
+        -144
+      ],
+      "id": "3f172c86-c474-40a1-80a2-f5f80bfde87c",
+      "name": "Create a post",
+      "credentials": {
+        "linkedInOAuth2Api": {
+          "id": "80pjO4Kb6AqOkipA",
+          "name": "LinkedIn account 4542"
+        }
+      }
+    }
+  ],
+  "pinData": {},
+  "connections": {
+    "Google Sheets Trigger": {
+      "main": [
+        [
+          {
+            "node": "Summarize Articles",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Google Gemini Chat Model": {
+      "ai_languageModel": [
+        [
+          {
+            "node": "Summarize Articles",
+            "type": "ai_languageModel",
+            "index": 0
+          }
+        ]
+      ]
+    },
+    "Summarize Articles": {
+      "main": [
+        [
+          {
+            "node": "Create a post",
+            "type": "main",
+            "index": 0
+          }
+        ]
+      ]
+    }
+  },
+  "active": true,
+  "settings": {
+    "executionOrder": "v1",
+    "binaryMode": "separate"
+  },
+  "versionId": "fe9b1b27-1b48-4f42-8f5f-d3e904c89372",
+  "meta": {
+    "templateCredsSetupCompleted": true,
+    "instanceId": "969257b09ad2942bbaff2e2288304f4969030574d109cdeca05bf11f630884df"
+  },
+  "id": "eSo6riGiW8Mi6U50",
+  "tags": []
+}
