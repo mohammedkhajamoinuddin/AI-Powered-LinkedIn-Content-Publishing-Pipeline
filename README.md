@@ -80,37 +80,37 @@ Published LinkedIn Post
 - Workflow Orchestration
 - AI-Assisted Content Generation
 
-## 📸 Project Screenshots
+---
+
+## 📸 Screenshots
 
 ### 📊 Google Sheets Input
 
-![Googleots/google-sheet-input.png.png
-
----
+![Google Sheets Input](screenshots/google--
 
 ### 🔄 Workflow Overview
 
-![Workflows/workflow-overview.png.png
+![reenshots/workflow-overview.png.png
 
 ---
 
 ### ⚡ Workflow Execution
 
-![Workflows/workflow-execution.png.png
+![reenshots/workflow-execution.png.png
 
 ---
 
 ### 📝 LinkedIn Post Output 1
 
-![Linkedots/linkedin-post-output-01.png.png
+![LinkedIn Post Output](screenshots/linkedin-post-output-01.pngIn Post Output 2
+
+![Linkedots/linkedin-post-output-02.png.png
 
 ---
 
-### 📝 LinkedIn Post Output 2
+### 📝 LinkedIn Post Output 3
 
-![LinkedIn Post Output 2](screenshots/linkedin-post-output-02.png.pngt Output 3
-
-![Linkedots/linkedin-post-output-03.png.png
+![LinkedIn Post Output](screenshots/linkedin-post-output-03.png
 
 ## Future Improvements
 
