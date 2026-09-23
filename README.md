@@ -298,20 +298,27 @@ The Google Sheets input contains the article URLs that trigger the automated con
 
 ---
 
-### 🔄 Workflow Overview
+### 🔄 Complete AI Publishing Pipeline
 
-The n8n workflow orchestrates article summarization, LinkedIn post generation, AI image prompt generation, image generation through Hugging Face, and LinkedIn publishing.
+The complete n8n pipeline showing the flow from Google Sheets through article summarization, LinkedIn post generation, AI image prompt generation, Hugging Face image generation, and LinkedIn publishing.
 
-![Workflow Overview](screenshots/workflow-execution.png.png)
+![Complete AI Publishing Pipeline](screenshots/pipeline.png)
+
+---
+
+### ⚡ Workflow Execution
+
+The n8n workflow execution showing the individual automation stages and successful data flow between nodes.
+
+![Workflow Execution](screenshots/workflow-execution.png.png)
 
 ---
 
 ### 📝 LinkedIn Post with AI-Generated Image
 
-The final LinkedIn post contains the AI-generated LinkedIn content together with the automatically generated professional image.
+The final LinkedIn post containing the generated LinkedIn content together with the AI-generated professional image.
 
-![LinkedIn Post with AI-Generated Image](screenshots/linkedin_post_with_image.png)
----
+![LinkedIn Post with AI-Generated Image](screenshots/linkedin_post_with_image.png)---
 
 ## Project Impact
 
